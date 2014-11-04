@@ -14,6 +14,7 @@ already_done=[]
 r=praw.Reddit(user_agent="Bitcoin Balance Bot")
 r.login(username,password)
 
+#Code still needs tidying up.
 
 subreddit=r.get_subreddit(subreddit)
 
